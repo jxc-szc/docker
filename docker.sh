@@ -1,6 +1,6 @@
 #!/bin/sh
 
-stopDocker() 
+stopDocker()
 {
 	pid=`ps -ef|grep docker|grep java|awk '{print $2}'`
     echo "docker Id list :$pid"
