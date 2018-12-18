@@ -1,0 +1,23 @@
+2018-12-17 10:52:33.557 [main] INFO  com.base.DockerDemoApplication - Starting DockerDemoApplication on szc-PC with PID 8504 (E:\eclipse\workspace\docker-demo\target\classes started by szc in E:\eclipse\workspace\docker-demo)
+2018-12-17 10:52:33.585 [main] INFO  com.base.DockerDemoApplication - No active profile set, falling back to default profiles: default
+2018-12-17 10:52:37.129 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 7999 (http)
+2018-12-17 10:52:37.146 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7999"]
+2018-12-17 10:52:37.158 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-17 10:52:37.158 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-17 10:52:37.199 [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_131/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_131/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_131/bin/../jre/lib/amd64;c:\program files\graphicsmagick-1.3.30-q16;C:\Program Files\ImageMagick-7.0.8-Q16;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Java\jdk1.8.0_131\bin;\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;S:\java\eclipse\apache-maven-3.5.0\bin;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;S:\redis\redis-windows\;S:\git\Git\cmd;S:\elasticsearch\nodejs\node\;E:\RabbitMQ\ErLang\erl10.1\bin;;S:\docker\Docker Toolbox;C:\Users\szc\AppData\Roaming\npm;S:\java\eclipse\eclipse-jee-oxygen-R-win32-x86_64\eclipse;;.]
+2018-12-17 10:52:37.322 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-17 10:52:37.322 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3515 ms
+2018-12-17 10:52:37.737 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-17 10:52:37.964 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7999"]
+2018-12-17 10:52:38.079 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-17 10:52:38.133 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 7999 (http) with context path ''
+2018-12-17 10:52:38.142 [main] INFO  com.base.DockerDemoApplication - Started DockerDemoApplication in 5.981 seconds (JVM running for 7.104)
+2018-12-17 10:52:56.154 [http-nio-7999-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-17 10:52:56.155 [http-nio-7999-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-17 10:52:56.171 [http-nio-7999-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2018-12-17 10:52:56.263 [http-nio-7999-exec-1] INFO  com.base.controller.DockerController - now:0
+2018-12-17 10:52:58.263 [http-nio-7999-exec-1] INFO  com.base.controller.DockerController - now:1
+2018-12-17 10:53:00.263 [http-nio-7999-exec-1] INFO  com.base.controller.DockerController - now:2
+2018-12-17 10:53:02.263 [http-nio-7999-exec-1] INFO  com.base.controller.DockerController - now:3
+2018-12-17 10:53:04.263 [http-nio-7999-exec-1] INFO  com.base.controller.DockerController - now:4
+2018-12-17 10:53:06.263 [http-nio-7999-exec-1] INFO  com.base.controller.DockerController - now:5
