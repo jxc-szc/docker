@@ -26,7 +26,7 @@ stopDocker
 
 # 备份
 data=$(date "+%Y%m%d%H%M%S")
-mkdir $DOCKER_PATH/bak/${data}
+mkdir -p $DOCKER_PATH/bak/${data}
 mv $DOCKER_PATH/docker.jar ../$DOCKER_PATH/bak/${data}
 rm -f $DOCKER_PATH/docker.jar
 
