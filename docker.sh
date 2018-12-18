@@ -36,4 +36,4 @@ cd $DOCKER_PATH
 mv docker-demo-0.0.1-SNAPSHOT.jar docker.jar
 
 # 启动
-stopDocker
+startDocker
