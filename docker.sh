@@ -17,7 +17,7 @@ startDocker()
 }
 
 #到当前工作目录下
-cd $PROJ_PATH/order
+cd $PROJ_PATH/docker
 mvn clean install
 
 #停止
@@ -26,11 +26,11 @@ stopDocker
 # 备份
 data=$(date "+%Y%m%d%H%M%S")
 mkdir -p $DOCKER_PATH/bak/${data}
-mv $DOCKER_PATH/docker.jar ../$DOCKER_PATH/bak/${data}
+mv $DOCKER_PATH/docker.jar $DOCKER_PATH/bak/${data}
 rm -f $DOCKER_PATH/docker.jar
 
 # 复制新的工程
-cp $PROJ_PATH/order/target/docker-demo-0.0.1-SNAPSHOT.jar $DOCKER_PATH
+cp $PROJ_PATH/docker/target/docker-demo-0.0.1-SNAPSHOT.jar $DOCKER_PATH
 
 cd $DOCKER_PATH
 mv docker-demo-0.0.1-SNAPSHOT.jar docker.jar
