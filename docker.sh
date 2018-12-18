@@ -24,10 +24,14 @@ mvn clean install
 stopDocker
 
 # 备份
-data=$(date "+%Y%m%d%H%M%S")
-mkdir -p $DOCKER_PATH/bak/${data}
-mv $DOCKER_PATH/docker.jar $DOCKER_PATH/bak/${data}
-rm -f $DOCKER_PATH/docker.jar
+if [ -f "$DOCKER_PATH/docker.jar" ];then
+  data=$(date "+%Y%m%d%H%M%S")
+  mkdir -p $DOCKER_PATH/bak/${data}
+  mv $DOCKER_PATH/docker.jar $DOCKER_PATH/bak/${data}
+  rm -f $DOCKER_PATH/docker.jar
+else
+  echo "文件不存在"
+fi
 
 # 复制新的工程
 cp $PROJ_PATH/docker/target/docker-demo-0.0.1-SNAPSHOT.jar $DOCKER_PATH
