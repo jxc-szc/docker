@@ -1,8 +1,7 @@
 #!/bin/sh
-
 stopDocker()
 {
-	pid=`ps -ef|grep docker|grep java|awk '{print $2}'`
+    pid=`ps -ef|grep docker|grep java|awk '{print $2}'`
     echo "docker Id list :$pid"
     if [ "$pid" = "" ]
     then
@@ -14,7 +13,7 @@ stopDocker()
 
 startDocker()
 {
-	java -jar docker.jar >/dev/null 2>&1 &
+    java -jar docker.jar >/dev/null 2>&1 &
 }
 
 #到当前工作目录下
