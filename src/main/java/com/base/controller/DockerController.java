@@ -15,11 +15,11 @@ public class DockerController {
         for (int i = 0; i < Integer.parseInt(n); i++) {
             try {
                 log.info("now:" + i);
-                Thread.sleep(2000);
+                Thread.sleep(1000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }
-        return "docker is fun!";
+        return "docker is so fun!";
     }
 }
